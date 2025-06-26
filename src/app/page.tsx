@@ -21,7 +21,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 bg-gray-900 text-center text-gray-400">
         <div className="section-padding">
-          <p>&copy; 2024 {portfolioConfig.personal.name}. All rights reserved.</p>
+          <p>&copy; 2025 Sai Vinay. All rights reserved.</p>
         </div>
       </footer>
     </main>

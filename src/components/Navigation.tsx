@@ -35,7 +35,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <Logo size={40} />
             <div className="text-xl font-bold gradient-text">
-              {portfolioConfig.personal.name.split(' ')[0]}'s Portfolio
+              {portfolioConfig.personal.name}
             </div>
           </div>
           

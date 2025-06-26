@@ -49,8 +49,8 @@ export default function Contact() {
           
           <div className="animate-slide-up">
             <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto">
-              I'm always interested in new opportunities and exciting projects. 
-              Let's connect and discuss how we can work together!
+              I&apos;m always interested in new opportunities and exciting projects. 
+              Let&apos;s connect and discuss how we can work together!
             </p>
             
             {portfolioConfig.contact.availableForWork && (

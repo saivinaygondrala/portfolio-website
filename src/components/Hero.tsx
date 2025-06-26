@@ -63,7 +63,7 @@ export default function Hero() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-slide-up" style={{animationDelay: '0.1s'}}>
-            Hi, I'm <span className="gradient-text">{portfolioConfig.personal.name}</span>
+            Hi, I&apos;m <span className="gradient-text">{portfolioConfig.personal.name}</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-slide-up" style={{animationDelay: '0.2s'}}>
             {portfolioConfig.personal.title}

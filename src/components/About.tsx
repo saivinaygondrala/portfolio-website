@@ -36,7 +36,7 @@ export default function About() {
                 {hasSummary && (
                   <p>
                     With {portfolioConfig.summary.yearsOfExperience} years of professional experience, 
-                    I've completed {portfolioConfig.summary.projectsCompleted} projects and developed expertise in {portfolioConfig.summary.skillsAreas} areas.
+                    I&apos;ve completed {portfolioConfig.summary.projectsCompleted} projects and developed expertise in {portfolioConfig.summary.skillsAreas} areas.
                     {portfolioConfig.summary.industryFocus && portfolioConfig.summary.industryFocus.length > 0 && (
                       <> I specialize in {portfolioConfig.summary.industryFocus.join(", ")} sectors.</>
                     )}
@@ -100,7 +100,7 @@ export default function About() {
                 {/* Dynamically group skills by category - works with ANY category names */}
                 {(() => {
                   // Get all unique categories from the skills array
-                  const uniqueCategories = [...new Set(portfolioConfig.skills.map(skill => skill.category))];
+                  const uniqueCategories = Array.from(new Set(portfolioConfig.skills.map(skill => skill.category)));
                   
                   return uniqueCategories.map((category) => {
                     const categorySkills = portfolioConfig.skills.filter(skill => skill.category === category);
